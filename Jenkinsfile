@@ -14,7 +14,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/chinni4321/apache2.git'
+                git 'https://github.com/chinni4321/apache2.git -b main'
 
             }
 
