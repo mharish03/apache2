@@ -23,7 +23,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 sh  '''
-                  cd apache2
+                  cd $WORKSPACE/apache2
                   aws s3 cp * s3://prashanth41234154 
                   '''
 
