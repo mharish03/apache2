@@ -24,7 +24,7 @@ pipeline {
                 // Get some code from a GitHub repository
                 sh  '''
                   cd $WORKSPACE
-                  aws s3 sync . s3://prashanth41234154
+                  aws s3 sync . s3://prashanth75383
                   '''
 
             }
